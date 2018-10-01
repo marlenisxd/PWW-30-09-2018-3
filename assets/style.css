@@ -1,0 +1,29 @@
+*	{ margin: 0px; padding: 0px; outline: none; }
+html, body	{ height: 100%; }
+body	{ color: #6c6c6c; font: normal 12px "Arial", sans-serif; text-align: center; background-color: #00aee3; }
+a	{ color: #6c6c6c; text-decoration: none; }
+a:hover	{ color: #6c6c6c; text-decoration: underline; }
+a	img	{ border: 0px; }
+
+.wrapper	{ width: 900px; padding: 20px; margin: 40px auto; text-align: left; background-color: #fff; box-shadow: 0px 0px 40px #666; -moz-box-shadow: 0px 0px 40px #666; -webkit-box-shadow: 0px 0px 40px #666; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; behavior: url(PIE.htc); }
+
+h1	{ text-align: center; font-size: 30px; font-weight: normal; color: #131313; border-bottom: 1px solid #e1e1e1; margin-bottom:10px; }
+h2	{ font-size: 20px; font-weight: normal; color: #131313; margin-bottom:10px; margin-top:10px; }
+h3	{ font-size: 16px; font-weight: bold; color: #FF9900; margin-bottom:5px; margin-top:5px; }
+
+div.block {margin-bottom: 20px;}
+div.block ul.features {list-style:square; margin-left: 30px; }
+div.block ul.features li {padding: 5px;}
+div.block ul.features li a {font-weight: bold; color:#666; text-decoration: underline;}
+
+div.stack-messages { width: auto; }
+div.stack-messages div.message { padding: 10px 15px; margin: 15px; border-width: 1px; border-style: solid; }
+div.stack-messages div.message a.close-btn { float: right; font-weight: bold; font-size: 11px; color: #555; text-decoration: none; }
+div.stack-messages div.message h1 { padding: 0; margin: 0 0 6px 0; font-size: 17px; border: 0px; font-weight: normal; }
+div.stack-messages div.message-info { background: #dbe3ff; color: #585b66; border-color: #a2b4ee;  }
+div.stack-messages div.message-attention { background: #ffffc0; color: #999999; border-color: #ccc;  }
+
+div.panels {padding:20px; background-color: #eee; text-align: center; margin-bottom: 10px;}
+div.panel {float:left; margin-left:10px;}
+
+.clear{clear:both;}

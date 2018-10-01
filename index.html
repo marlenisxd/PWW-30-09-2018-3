@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+
+<head>
+
+    <title>Superkupong</title>
+    <meta name="keywords" content="create from keywords">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+<!-- Google Fonts -->
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+<!-- CSS Files -->
+
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
+  
+<!-- JS Files -->
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    
+    <!-- Masonry -->
+    
+	<script src="js/jquery.masonry.min.js"></script>
+    
+    <script>
+      $(function(){
+    
+        var $container = $('#container');
+      
+        $container.imagesLoaded( function(){
+          $container.masonry({
+            itemSelector : '.box',
+			isFitWidth: true,
+			isAnimated: true
+          });
+        });
+      
+      });
+    </script>
+    
+
+
+</head>
+
+<body>
+
+<?php
+  $login_cookie = $_COOKIE['login'];
+    if(isset($login_cookie)){
+      echo"Bem-Vindo, $login_cookie <br>";
+      echo"Essas informações <font color='red'>PODEM</font> ser acessadas por você";
+    }else{
+      echo"Bem-Vindo, convidado <br>";
+      echo"Essas informações <font color='red'>NÃO PODEM</font> ser acessadas por você";
+      echo"<br><a href='login.html'>Faça Login</a> Para ler o conteúdo";
+    }
+?>
+    <div class="header">
+    
+    <div id="site_title"><a href="index.html"><img src="img/logo.png" /></a></div>
+
+    <!-- Main Menu -->
+    
+    <ol id="menu">
+             <li class="active_menu_item"><a href="index.html">Home</a>
+        
+              <!-- sub menu -->
+              <ol> 
+                <li><a href="portifolio.html">Portifólio</a></li> 
+                <li><a href="nivo.html">Quem Somos</a></li>
+                <li><a href="ei_slider.html">Parceiros</a></li>
+              </ol>
+              </li><!-- END sub menu -->
+        
+        <li><a href="#">Trabalhos</a>
+        
+              <!-- sub menu -->
+              <ol>    
+                <li><a href="single_coupon.php">Books</a></li> 
+                <li><a href="magazine.html">Eventos</a></li>
+                <li><a href="blog.html">Ensaios</a></li>
+              </ol>
+        </li><!-- END sub menu -->
+        
+        <li><a href="elements.html">Area do Cliente</a>
+             
+			 <!-- sub menu -->
+			 <ol>     
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+			</ol>
+		</li><!-- END sub menu -->
+		
+        
+               <li><a href="contato.html">Contato</a></li>
+    </ol>
+    
+    
+    </div><!-- END header -->
+
+    <div id="container" style="background-color: rgba(0,0,0,0.2);">
+
+    <div class="box photo col3">
+      <a href="single_coupon.php" title="Foto do melhor ator do mundo"><img src="img/masonry/1.jpg" alt="Stanley" /></a>
+      <h3>Cage</h3>
+    </div>
+
+  
+    <div class="box photo col3">
+      <a href="single_coupon.php" title="Foto do melhor ator do mundo"><img src="img/masonry/2.jpg" alt="Stanley" /></a>
+      <h3>Cage</h3>
+    </div>
+  
+    <div class="box photo col3">
+      <a href="single_coupon.php" title="Foto do melhor ator do mundo"><img src="img/masonry/3.jpg" alt="Stanley" /></a>
+      <h3>Cage</h3>
+    </div>
+  
+    <div class="box photo col3">
+    <div class="discount_value">20%</div>
+      <a href="single_coupon.php" title="Foto do melhor ator do mundo"><img src="img/masonry/4.jpg" alt="Stanley" /></a>
+      <h3>Cage</h3>
+    </div>
+
+  
+    <div class="box photo col3">
+      <a href="single_coupon.php" title="Foto do melhor ator do mundo"><img src="img/masonry/5.jpg" alt="Stanley" /></a>
+      <h3>Cage</h3>
+    </div>
+    
+    <div class="box photo col3">
+      <a href="single_coupon.php" title="Foto do melhor ator do mundo"><img src="img/masonry/6.jpg" alt="Stanley" /></a>
+      <h3>Cage</h3>
+    </div>
+    
+    <div class="box photo col3">
+      <a href="single_coupon.php" title="Foto do melhor ator do mundo"><img src="img/masonry/7.jpg" alt="Stanley" /></a>
+      <h3>Cage</h3>
+    </div>
+    
+    <div class="box photo col3">
+      <a href="single_coupon.php" title="Foto do melhor ator do mundo"><img src="img/masonry/8.jpg" alt="Stanley" /></a>
+      <h3>Cage</h3>
+    </div>
+    
+   <div class="box photo col3">
+    <div class="discount_value">20%</div>
+      <a href="single_coupon.php" title="Foto do melhor ator do mundo"><img src="img/masonry/9.jpg" alt="Stanley" /></a>
+      <h3>Cage</h3>
+    </div>
+    
+   <div class="box photo col3">
+    <div class="discount_value">10%</div>
+      <a href="single_coupon.php" title="Foto do melhor ator do mundo"><img src="img/masonry/10.jpg" alt="Stanley" /></a>
+      <h3>Cage</h3>
+    </div>
+    
+   <div class="box photo col3">
+      <a href="single_coupon.php" title="Foto do melhor ator do mundo"><img src="img/masonry/11.jpg" alt="Stanley" /></a>
+     <h3>Cage</h3>
+    </div>
+
+
+    <div style="clear:both; height: 40px"></div>
+    </div>
+
+    <!-- END container -->
+    
+    
+ <div id="footer">
+
+           <!-- First Column -->
+   
+    
+    <div class="one-fourth">
+        <h3>Colaboradores</h3>
+            <ul class="footer_links">
+                <li><a href="#">Marlon Alexandre Matos</a></li>
+                <li><a href="#">Gustavo Possatti</a></li>
+                <li><a href="#">Deus</a></li>
+                <li><a href="#">Fé em ter um diploma</a></li>
+            </ul>
+    </div>
+     <!-- Second Column -->
+    
+    
+    <div class="one-fourth">
+        <h3>Informações</h3>
+       Os css foram exportados, templates foram alterados conforme o uso.
+        
+        <div id="social_icons">
+        Códigos e parte do tema exportado de: <a href="http://www.csstemplateheaven.com">CssTemplateHeaven</a>
+        </div>
+        
+    </div>
+    
+  <!-- Third Column -->
+    
+    <div class="one-fourth last">
+        <h3>Redes Sociais</h3>
+            <img src="img/icon_fb.png" alt="Facebook">
+            <img src="img/icon_twitter.png" alt="Facebook">
+            <img src="img/icon_in.png" alt="Facebook">
+    </div>
+
+    <div style="clear:both"></div>
+    
+    </div> <!-- END footer -->
+
+
+</body>
+</html>

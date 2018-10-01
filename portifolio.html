@@ -1,0 +1,269 @@
+<!DOCTYPE HTML>
+
+<head>
+
+    <title>Produtos</title>
+    <meta name="keywords" content="create from keywords">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+<!-- Google Fonts -->
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+<!-- CSS Files -->
+
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
+    
+  
+<!-- Contact Form -->    
+    
+    <link href="contact_form/css/style.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="contact_form/css/uniform.css" media="screen" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="contact_form/js/jquery.tools.js"></script>
+    <script type="text/javascript" src="contact_form/js/jquery.uniform.min.js"></script>
+    <script type="text/javascript" src="contact_form/js/main.js"></script>
+    
+
+
+<!-- JS Files -->
+
+	<script src="js/jquery.tools.min.js" type="text/javascript"></script>
+        
+    <script type="text/javascript">
+        $(function() {
+        $("#prod_nav ul").tabs("#panes > div", {effect: 'fade', fadeOutSpeed: 400});
+    });
+    </script>
+    
+    <script type="text/javascript">
+            $(document).ready(function(){
+            $(".pane-list li").click(function(){
+            window.location=$(this).find("a").attr("href");return false;
+        });
+    
+    }); //close doc ready
+    </script>
+
+</head>
+
+<body>
+
+    <div class="header">
+    
+    <div id="site_title"><a href="index.html"><img src="img/logo.png" /></a></div>
+
+    <!-- Main Menu -->
+    
+   <ol id="menu">
+             <li class="active_menu_item"><a href="index.html">Home</a>
+        
+              <!-- sub menu -->
+              <ol> 
+                <li><a href="portifolio.html">Portifólio</a></li> 
+                <li><a href="nivo.html">Quem Somos</a></li>
+                <li><a href="ei_slider.html">Parceiros</a></li>
+              </ol>
+              </li><!-- END sub menu -->
+        
+        <li><a href="#">Trabalhos</a>
+        
+              <!-- sub menu -->
+              <ol>    
+                <li><a href="single_coupon.php">Books</a></li> 
+                <li><a href="magazine.html">Eventos</a></li>
+                <li><a href="blog.html">Ensaios</a></li>
+              </ol>
+        </li><!-- END sub menu -->
+        
+        <li><a href="elements.html">Area do Cliente</a>
+             
+			 <!-- sub menu -->
+			 <ol>     
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+			</ol>
+		</li><!-- END sub menu -->
+		
+        
+               <li><a href="contato.html">Contato</a></li>
+    </ol>
+    
+    
+    
+    </div><!-- END header -->
+
+
+    <div id="container">
+   
+
+
+<!-- tab panes -->
+
+<div id="prod_wrapper">
+
+    <div id="panes">
+    
+    <div>
+    <img src="img/demo/1.jpg" height="300" width="600" alt="demo" />				
+    <h2> Gravação de "O Justiceiro" </h2>
+        <p> Série Netflix na qual é contada a história de um vigilante, Frank Castle.
+    </p>
+    <p style="text-align:right; margin-right: 16px"><a href="#" class="button">Mais informações</a> <a href="#" class="button">Contratar agora</a></p>	
+    </div>
+    
+        
+    <div>
+    <img src="img/demo/2.jpg" height="300" width="500" alt="demo" />	
+    <h2>Conheca a equipe</h2>
+    <p>Fotográfos profissionais com equipamento de ponta para registrar seus melhores momentos.
+    </p>
+     <p style="text-align:right; margin-right: 10px"><a href="#" class="button">Mais informações</a> <a href="#" class="button">Contratar agora</a></p>	
+    </div>
+        
+    <div>   
+    <img src="img/demo/3.jpg" height="300" width="500" alt="demo" />
+    <h2>A Sociedade do Anel</h2>
+    <p> Imagem tirada na gravação do primeiro filme da trilogia de O Senhor dos Anéis.
+    </p>
+    <p style="text-align:right; margin-right: 16px"><a href="#" class="button">Mais informações</a> <a href="#" class="button">Contratar agora</a></p>	
+    </div>
+    
+	<div>
+	<img src="img/demo/4.jpg" height="300" width="500" alt="demo"/>
+	<h2>Anuncio para clientes</h2>
+	<p>É SHOW</p>
+	<p style="text-align:right; margin-right: 16px"><a href="#" class="button">Mais informações</a> <a href="#" class="button">Contratar agora</a></p>	
+	</div>
+    
+        
+    </div> 
+
+<!-- END tab panes -->
+
+
+<br clear="all" />
+
+
+<!-- navigator -->
+
+<div id="prod_nav">
+    <ul>
+      <li><a href="#1"> <img src="img/demo/1.jpg" width="150" alt="demo" /><strong>A dor</strong> Frankle Castle</a></li>
+      <li><a href="#2"><img src="img/demo/2.jpg" width="150" alt="demo" /><strong>A equipe</strong> Não julgue um livro pela capa</a></li>
+      <li><a href="#3"><img src="img/demo/3.jpg" width="150" alt="demo" /><strong>Estrada Solitaria</strong> Max </a></li>
+      <li><a href="#4"><img src="img/demo/4.jpg" width="150" alt="demo" /><strong>Anuncios</strong> $ 1099</a></li>
+     
+    </ul>
+
+</div>
+
+
+
+</div>
+
+    
+    
+   <!-- <div class="heading_bg"><h2>Sobre nós</h2></div>
+    
+        DECIDIR DPS SE VAI DEIXAR OU NAO ISSO TUDO 
+	   <blockquote>
+		Com o intuito de registrar momentos, temos os melhores equipamentos de video e som e uma equipe dedicada a edição.
+    </blockquote>
+	
+    <p style="text-align:right; margin-right: 16px; margin-bottom: 15px"><a href="#" class="button" style="font-size: 18px">Botao</a></p> 
+
+	decidir dps pra que usar esse botao -->
+    
+   
+    
+    
+    <div class="one-half last">
+    
+         <div class="heading_bg"><h2>Entre em contato!</h2></div>
+
+         
+         <form action="#" class="TTWForm" method="post" novalidate="">
+            
+          <div id="field1-container" class="field f_50">
+               <label for="field1">Nome</label>
+               <input name="name" id="field1" required="required" type="text">
+          </div>
+          
+          
+          <div id="field2-container" class="field f_50">
+               <label for="field2">Telefone</label>
+               <input name="tel" id="field2" required="required" type="text">
+          </div>
+          
+          
+          <div id="field5-container" class="field f_50">
+               <label for="field5">E-mail</label>
+               <input name="email" id="field5" required="required" type="email">
+          </div>
+          
+          
+          <div id="field4-container" class="field f_100">
+               <label for="field4">Mensagem</label>
+               <textarea rows="5" cols="20" name="message" id="field4" required="required"></textarea>
+          </div>
+          
+          
+          <div id="form-submit" class="field f_100 clearfix submit">
+               <input value="Manda bala" type="submit">
+          </div>
+     </form>
+    
+    
+    </div>
+
+
+    <div style="clear:both; height: 40px"></div>
+    </div>
+
+    <!-- END container -->
+
+
+    <div id="footer">
+
+    <!-- First Column -->
+
+    
+    <div class="one-fourth">
+        <h3>Colaboradores</h3>
+            <ul class="footer_links">
+                <li><a href="#">Marlon Alexandre Matos</a></li>
+                <li><a href="#">Gustavo Possatti</a></li>
+                <li><a href="#">Deus</a></li>
+                <li><a href="#">Fé em ter um diploma</a></li>
+            </ul>
+    </div>
+     <!-- Second Column -->
+    
+    
+    <div class="one-fourth">
+        <h3>Informações</h3>
+       Os css foram exportados, templates foram alterados conforme o uso.
+        
+        <div id="social_icons">
+        Códigos e parte do tema exportado de: <a href="http://www.csstemplateheaven.com">CssTemplateHeaven</a>
+        </div>
+        
+    </div>
+    
+  <!-- Third Column -->
+    
+    <div class="one-fourth last">
+        <h3>Redes Sociais</h3>
+            <img src="img/icon_fb.png" alt="Facebook">
+            <img src="img/icon_twitter.png" alt="Facebook">
+            <img src="img/icon_in.png" alt="Facebook">
+    </div>
+
+    <div style="clear:both"></div>
+    
+    </div> <!-- END footer -->
+
+</body>
+</html>
